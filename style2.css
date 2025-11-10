@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+body{
+    background-color: gray;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #222;
+    width: auto;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    border:3px red dotted;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px;
+    
+}
+
+nav{
+    align-items: center;
+    padding-top: 8px;
+}
+
+i{
+    color: aliceblue;
+    font-size: large;
+}
+
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+img{
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+    
+}
+
